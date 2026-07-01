@@ -1,0 +1,87 @@
+body{
+    background-color: black;
+}
+div{
+    border: 2px solid black;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 100px;
+    position: fixed;
+    top: 0;
+    background-color: black;
+}
+#heder1{
+    height:40px;
+    width: 1500px;
+}
+.navbar{
+    position: fixed;
+    height: 60px;
+    width:1500px;
+}
+.content{
+    display: inline-block;
+    height: 800px;
+    width: 1500px;
+    position: absolute;
+    top: 100px;
+  
+}
+#maincontent{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 1000px;
+    background-color: rgb(133, 202, 255);
+}
+#sidecontent{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 498px;
+    background-color: blueviolet;
+}
+.footer{
+    position: absolute;
+    bottom: -290px;
+    height: 100px;
+    width:100%;
+    background-color: black;
+}
+#one{
+    position: relative;
+    display: inline-block;
+    height: 40px;
+    width: 120px;
+    margin-right: 330px;
+    background-color: white;
+}
+#two{
+    position: relative;
+    display: inline-block;
+    height: 40px;
+    width: 120px;
+    margin-right: 330px;
+    background-color: white;
+}
+#three{
+    position: relative;
+    display: inline-block;
+    height: 40px;
+    width: 120px;
+    margin-right: 330px;
+    background-color: white;
+}
+#four{
+    position: relative;
+    display: inline-block;
+    height: 40px;
+    width: 120px;
+    margin-right: 0px;
+    background-color: white;
+}
+
