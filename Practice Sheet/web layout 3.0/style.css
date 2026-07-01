@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    color: #090302;
+    font-family: cursive;
+}
+body{
+    background-color: #C8BFC7;
+    
+}
+h1{
+    /* background-color: #7A9B76; */
+    height: 60px;
+    font-size: xx-large;
+    /* border: 2px dashed black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar {
+    background-color: rgb(193, 36, 68);
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 2px dashed black; */
+    height: 40px;
+}
+.navs {
+    text-decoration: none;
+    color: white;
+}
+#one{
+    font-size: 20px;
+    font-weight: bolder;
+    color: gold;
+}
