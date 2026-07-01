@@ -1,0 +1,50 @@
+div{
+    border: 2px solid black;
+}
+.container{
+    display: flex;
+    height: 500px;
+    width: 800px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: pink;
+    transition: all 3s ease-in;
+}
+.content{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    
+}
+#one{
+    background-color: aqua;
+    border-radius: 50%;
+    /* transition: all 2s ease; */
+}
+#two{
+    background-color: blueviolet;
+}
+#three{
+    background-color: crimson;
+}
+#four{
+    background-color: goldenrod;
+}
+#five{
+    background-color: darkseagreen;
+}
+
+.content:hover {
+    background-color: rgb(0, 2, 4);
+}
+/* #one:hover {
+
+    background-color: black;
+} */
+.container:hover{
+    background-color: cadetblue;
+}
