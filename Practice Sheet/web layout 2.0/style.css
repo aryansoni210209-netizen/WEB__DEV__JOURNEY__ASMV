@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    paddding :0;
+}
+
+div {
+
+    border: 2px solid black;
+}
+.header{
+    position: absolute;
+    top: 0;
+    height: 100px;
+}
+.nav{
+    position: absolute;
+    top: 100px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+.sidebar{
+    position: absolute;
+    left: 0;
+    height: 800px;
+    width: 300px;
+}
+.container {
+    height: 800px;
+    width: 1200px;
+    position: absolute;
+    right: 0;
+
+}
+.box {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
